@@ -2,6 +2,6 @@
 int main()
 {
 printf("%20s","right\n");
-printf("%-20s","left\n");
+printf("%-40s","left\n");
 return(0);
 }
