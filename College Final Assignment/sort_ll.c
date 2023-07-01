@@ -102,7 +102,7 @@ int main(){
 				break;
 			case 2:
 				newnode=(node *)malloc(sizeof(node));
-				printf("Enter element to inser : ");
+				printf("Enter element to insert : ");
 				scanf("%d", &newnode->info);
 				newnode->next=NULL;
 				create(start2, newnode);
